@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ServiceForm from './service form/mulitformservices';
+import AdminDashboard from './adminDash/dashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <AdminDashboard />
     <ServiceForm />
   </React.StrictMode>
 );
